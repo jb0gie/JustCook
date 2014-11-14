@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.l33tm4n.CT6CTPRO"
+    android:versionCode="1"
+    android:versionName="1.0" >
+	
+    <permission
+       android:name="info.androidhive.googlemapsv2.permission.MAPS_RECEIVE"
+       android:protectionLevel="signature" />
+     
+    <uses-permission android:name="info.androidhive.googlemapsv2.permission.MAPS_RECEIVE" />
+    
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+    
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+ 
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+ 
+    <!-- Required OpenGL ES 2.0. for Maps V2 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >      
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.SplashScreen"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.Page1Activity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MealOne"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MealTwo"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MealThree"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MealFour"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MealOnePriceOne"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MealOnePriceTwo"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MealOnePriceThree"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MealOnePriceFour"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MealTwoPriceOne"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MealTwoPriceTwo"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MealTwoPriceThree"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MealTwoPriceFour"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MealThreePriceOne"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MealThreePriceTwo"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MealThreePriceThree"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MealThreePriceFour"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MealFourPriceOne"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MealFourPriceTwo"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MealFourPriceThree"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MealFourPriceFour"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodOne"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodTwo"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodThree"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodFour"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodFourA"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodFive"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodFiveA"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodFiveB"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodSix"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodSixA"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodSixB"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodSeven"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodSevenA"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodSevenB"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodSevenC"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodEight"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodEightA"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodNine"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodNineA"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodTen"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodTenA"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodEleven"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodElevenA"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodTwelve"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodThirteen"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodThirteenA"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.FoodThirteenB"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.l33tm4n.CT6CTPRO.MapView"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.l33tm4n.CT6CTPRO.MainActivity" />	  
+        </activity>
+        
+        <!-- Google API Key -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyA7Dc5NGvPXGr38eO6450UzUEFo12Drew8" />
+        <meta-data
+  			android:name="com.google.android.gms.version"
+  			android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

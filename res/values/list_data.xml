@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="meal_one_price_one">
+        <item>Pizza Toast</item>
+		<item>Single-Serve Mug Cake</item>
+		<item>Tuna &amp; Beans</item>
+    </string-array>
+    
+    <string-array name="meal_one_price_two">
+		<item>Tamagoyaki</item>
+		<item>Chinese Style Egg Fried Rice</item>
+		<item>Chicken &amp; Cheese Quesadilla</item>
+    </string-array>
+     
+    <string-array name="meal_one_price_three">
+		<item>Perfect Pita Pizza</item>
+		<item>Tuna Pasta Bake</item>
+		<item>Mince &amp; Vegatable Pasta</item>
+    </string-array>
+    	
+    <string-array name="meal_one_price_four">
+  		<item>Spaghetti Bolognese</item>
+		<item>Tuna Pasta Bake</item>
+		<item>Mince &amp; Vegatable Pasta</item>
+    </string-array>
+    
+    
+    
+    <string-array name="meal_two_price_one">
+        <item>Pizza Toast</item>
+        <item>Single-Serve Mug Cake</item>
+		<item>Tuna &amp; Beans</item>
+        <item>Perfect Pita Pizza</item>
+    </string-array>
+    
+    <string-array name="meal_two_price_two">
+        <item>Tamagoyaki</item>
+		<item>Chinese Style Egg Fried Rice</item>
+		<item>Chicken &amp; Cheese Quesadilla</item>
+        <item>Perfect Pita Pizza</item>
+    </string-array>
+    
+    <string-array name="meal_two_price_three">
+        <item>Perfect Pita Pizza</item>
+		<item>Tuna Pasta Bake</item>
+		<item>Mince &amp; Vegatable Pasta</item>
+        <item>Chinese Style Egg Fried Rice</item>
+    </string-array>
+   
+    <string-array name="meal_two_price_four">
+        <item>Spaghetti Bolognese</item>
+        <item>Chinese Style Egg Fried Rice</item>
+        <item>Tuna Pasta Bake</item>
+        <item>Simply Deliecous Calezone</item>
+    </string-array>
+    
+    
+    
+    <string-array name="meal_three_price_one">
+        <item>Perfect Pita Pizza</item>
+        <item>Pizza Toast</item>
+        <item>Simply Deliecous Calezone</item>
+    </string-array>
+    
+    <string-array name="meal_three_price_two">
+        <item>Tamagoyaki</item>
+    </string-array>
+    
+    <string-array name="meal_three_price_three">
+        <item>Spaghetti Bolognese</item>
+        <item>Simply Deliecous Calezone</item>
+    </string-array>
+    
+    <string-array name="meal_three_price_four">
+        <item>Chinese Style Egg Fried Rice</item>
+        <item>Chicken &amp; Cheese Quesadilla</item>
+        <item>Tuna Pasta Bake</item>
+        <item>Simply Deliecous Calezone</item>
+    </string-array>
+    	
+    
+    
+    
+    <string-array name="meal_four_price_one">
+        <item>Pizza Toast</item>
+    </string-array>
+    
+    <string-array name="meal_four_price_two">
+        <item>Perfect Pita Pizza</item>
+    </string-array>
+    
+    <string-array name="meal_four_price_three">
+        <item>Chicken &amp; Cheese Quesadilla</item>
+        <item>Mince &amp; Vegatable Pasta</item>
+        <item>Simply Deliecous Calezone</item>
+    </string-array>
+    
+    <string-array name="meal_four_price_four">
+        <item>Perfect Pita Pizza</item>
+        <item>Chinese Style Egg Fried Rice</item>
+        <item>Chicken &amp; Cheese Quesadilla</item>
+        <item>Mince &amp; Vegatable Pasta</item>
+        <item>Tuna Pasta Bake</item>
+        <item>Tamagoyaki</item>
+        <item>Simply Deliecous Calezone</item>
+    </string-array>
+    
+    
+</resources>

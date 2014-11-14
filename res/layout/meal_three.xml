@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_pg_1"
+        android:gravity="center_horizontal"
+    	tools:context=".MealThree">
+
+    <Button
+        android:id="@+id/justcook1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="115dp"
+        android:height="125dp"
+        android:onClick="btnPriceOne"
+        android:text="@string/button_1"
+        android:textColor="#EEEFF7"
+        android:width="146dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/justcook1"
+        android:layout_marginRight="29dp"
+        android:height="125dp"
+        android:onClick="btnPriceTwo"
+        android:text="@string/button_2"
+        android:textColor="#EEEFF7"
+        android:width="146dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignTop="@+id/button3"
+        android:height="125dp"
+        android:onClick="btnPriceFour"
+        android:text="@string/button_4"
+        android:textColor="#EEEFF7"
+        android:width="146dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:text="@string/pg_3_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#EEEFF7" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/justcook1"
+        android:layout_alignStart="@+id/justcook1"
+        android:layout_below="@+id/justcook1"
+        android:layout_marginTop="66dp"
+        android:height="125dp"
+        android:onClick="btnPriceThree"
+        android:text="@string/button_3"
+        android:textColor="#EEEFF7"
+        android:width="146dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="29dp"
+        android:text="@string/meal_for_3"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="19sp" />
+
+</RelativeLayout>

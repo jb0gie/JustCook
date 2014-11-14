@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_pg_1"
+        android:gravity="center_horizontal"
+    	tools:context=".Page1Activity">
+
+    <Button
+        android:id="@+id/button_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="115dp"
+        android:height="125dp"
+        android:onClick="btnMealOne"
+        android:text="@string/button_one"
+        android:textColor="#EEEFF7"
+        android:width="146dp" />
+
+    <Button
+        android:id="@+id/button_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button_one"
+        android:layout_marginRight="29dp"
+        android:height="125dp"
+        android:onClick="btnMealTwo"
+        android:text="@string/button_two"
+        android:textColor="#EEEFF7"
+        android:width="146dp" />
+
+    <Button
+        android:id="@+id/button_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_two"
+        android:layout_alignStart="@+id/button_two"
+        android:layout_alignTop="@+id/button_three"
+        android:height="125dp"
+        android:onClick="btnMealFour"
+        android:text="@string/button_four"
+        android:textColor="#EEEFF7"
+        android:width="146dp" />
+
+    <Button
+        android:id="@+id/button_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_one"
+        android:layout_alignStart="@+id/button_one"
+        android:layout_below="@+id/button_one"
+        android:layout_marginTop="59dp"
+        android:height="125dp"
+        android:onClick="btnMealThree"
+        android:text="@string/button_three"
+        android:textColor="#EEEFF7"
+        android:width="146dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="@string/pg_2_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#EEEFF7" />
+
+</RelativeLayout>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Just Cook</string>
+    <string name="splash_load">LOADING....</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint">*If you make a mistake CLICK the back button on your device!</string>
+    
+    
+    <!-- meal strings -->
+    <string name="meal_one">Pizza Toast</string>
+    <string name="meal_two">Single-Serve Mug Cake</string>
+    <string name="meal_three">Tuna &amp; Beans</string>
+    <string name="meal_four">Simply Deliecous Calezone</string>
+    <string name="meal_five">Tamagoyaki</string>
+    <string name="meal_six">Chinese Style Egg Fried Rice</string>
+    <string name="meal_seven">Chicken &amp; Cheese Quesadilla</string>
+    <string name="meal_eight">Perfect Pita Pizza</string> 
+    <string name="meal_nine">Tuna Pasta Bake</string>
+    <string name="meal_ten">Mince &amp; Vegatable Pasta</string>
+    <string name="meal_eleven">Spaghetti Bolognese</string>
+    <string name="meal_twelve">Perfect Meat Lovers Pita Pizza</string>
+    
+    
+    <!-- meal ingredients strings -->
+    <string name="ingreidients_one">
+    Sliced Bread, 
+    Pasta Sauce, 
+    Cheese, 
+    Desired Toppings (Optional).
+    \n \nPrice: £5.
+    </string>
+    
+    <string name="ingreidients_two">
+    1 tsp Butter/Margerine, 
+    Rasperberries (Optional), 
+    1 Egg, 
+    3 tsp Self&#8211;Raising Flour, 
+    4&#8211;5 tsp Sugar.
+    \n \nPrice: £5. 
+    </string>
+    
+    <string name="ingreidients_three">
+    1 Tin of Tuna, 
+    1 Can Baked Bean, 
+    1 Pack of Instant Rice, 
+    BBQ or Brown Sauce.
+    \n \nPrice: £5.
+    </string>
+    
+    <string name="ingreidients_four_a">
+    Tortilla Wraps, 
+    Tomato Pasta Sauce, 
+    Cheese.
+    \n \nPrice: £5.
+    </string>
+    
+    <string name="ingreidients_four_b">
+    Tortilla Wraps, 
+    Tomato Pasta Sauce, 
+    Cheese.
+    \n \nPrice: £15.
+    </string>
+    
+    <string name="ingreidients_four">
+    Tortilla Wraps, 
+    Tomato Pasta Sauce, 
+    Cheese.
+    \n \nPrice: £20.
+    </string>
+    
+    <string name="ingreidients_five">
+    1 or 2 Medium Eggs, 
+    1 &#189; tsp Light Soy Sauce, 
+    1 tsp Oil.
+    \n \nPrice: £10.
+    </string>
+    
+    <string name="ingreidients_five_a">
+    1 or 2 Medium Eggs, 
+    1 &#189; tsp Light Soy Sauce, 
+    1 tsp Oil.
+    \n \nPrice: £20.
+    </string>
+    
+    <string name="ingreidients_six">
+    Rice, 
+    1 Egg, 
+    2tsp Garlic Powder (Optional).
+    \n \nPrice: £10.
+    </string>
+    
+    <string name="ingreidients_six_a">
+    Rice, 
+    1 Egg,
+    2tsp Garlic Powder (Optional).
+    \n \nPrice: £15.
+    </string>
+    
+    <string name="ingreidients_six_b">
+    Rice, 
+    1 Egg, 
+    2tsp Garlic Powder (Optional).
+    \n \nPrice: £20.
+    </string>
+    
+    <string name="ingreidients_seven">
+    Tortilla Wraps, 
+    Shredded Cheese, 
+    Vegatable (Optional), 
+    Spices(Optional), 
+    Butter or Oil.
+    \n \nPrice: £10.
+    </string>
+    
+    <string name="ingreidients_seven_a">
+    Tortilla Wraps, 
+    Shredded Cheese, 
+    Vegatable (Optional), 
+    Spices(Optional), 
+    Butter or Oil.
+    \n \nPrice: £15.
+    </string>
+    
+    <string name="ingreidients_seven_b">
+    Tortilla Wraps, 
+    Shredded Cheese, 
+    Vegatable (Optional), 
+    Spices(Optional), 
+    Butter or Oil.
+    \n \nPrice: £20.
+    </string>
+    
+    <string name="ingreidients_eight">
+    Pita Bread, 
+    Tomato Puree, 
+    Cheese, 
+    Herbs (Optional).
+    \n \nPrice: £5.
+    </string>
+    
+    <string name="ingreidients_eight_a">
+    Pita Bread, 
+    Tomato Puree, 
+    Cheese, 
+    Herbs (Optional).
+    \n \nPrice: £10.
+    </string>
+    
+    <string name="ingreidients_eight_b">
+    Pita Bread, 
+    Tomato Puree, 
+    Cheese, 
+    Herbs (Optional).
+    \n \nPrice: £15.
+    </string>
+    
+    <string name="ingreidients_eight_c">
+    Pita Bread, 
+    Tomato Puree, 
+    Cheese, 
+    Herbs (Optional).
+    \n \nPrice: £20.
+    </string>
+    
+    <string name="ingreidients_nine">
+    Pasta, 
+    &#189; Jar Tomato Sauce, 
+    Sweet Corn, 
+    4 Pieces of Cheese, 
+    &#189; Tin Tuna.
+    \n \nPrice: £5.
+    </string>
+    
+    <string name="ingreidients_nine_a">
+    Pasta, 
+    &#189; Jar Tomato Sauce, 
+    Sweet Corn, 
+    4 Pieces of Cheese,
+    &#189; Tin Tuna.
+    \n \nPrice: £10.
+    </string>
+    
+    <string name="ingreidients_nine_b">
+    Pasta, 
+    &#189; Jar Tomato Sauce, 
+    Sweet Corn, 
+    4 Pieces of Cheese, 
+    &#189; Tin Tuna.
+    \n \nPrice: £15.
+    </string>
+    
+    <string name="ingreidients_nine_c">
+    Pasta, 
+    &#189; Jar Tomato Sauce, 
+    Sweet Corn, 
+    4 Pieces of Cheese, 
+    &#189; Tin Tuna.
+    \n \nPrice: £20.
+    </string>
+    
+    <string name="ingreidients_ten">
+    &#189; pack of Mince Meat, 
+    Peas (Optional), 
+    Carrots (Optional)
+    .\n \nPrice: £15.
+    </string>
+    <string name="ingreidients_ten_a">
+    &#189; pack of Mince Meat, 
+    Peas (Optional), 
+    Carrots (Optional).
+    \n \nPrice: £20.
+    </string>
+    
+    <string name="ingreidients_eleven">
+    1 red onion, 
+	1 garlic clove, 
+	500g lean beef mince,
+	2 cans chopped tomatoes,
+	1 carrot, 
+	2 tbsp tomato puree,
+	Dash of worcester sauce,
+	1 tbsp italian seasoning
+	100g spaghetti
+    \n \nPrice: £15.
+    </string>
+    
+    <string name="ingreidients_eleven_a">
+    1 red onion, 
+	1 garlic clove, 
+	500g lean beef mince,
+	2 cans chopped tomatoes,
+	1 carrot, 
+	2 tbsp tomato puree,
+	Dash of worcester sauce,
+	1 tbsp italian seasoning
+	100g spaghetti
+    \n \nPrice: £20.
+    </string>
+    
+    <string name="meal_for_1">Meal(s) for 1 Person.</string>
+    <string name="meal_for_2">Meal(s) for 2 People.</string>
+    <string name="meal_for_3">Meal(s) for 3 People.</string>
+    <string name="meal_for_4">Meal(s) for 4 People.</string>
+
+    <!-- pg_1 strings -->
+    <string name="step_one">Step 1 : Who is Eating?</string>
+    <string name="step_two">Step 2 : How Much?</string>
+    <string name="step_three">Step 3: Pick Your Items</string>
+    <string name="step_four">Step 4: Where Do I Go?</string>
+    <string name="step_five">Step 5: JUST COOK!</string>
+    <string name="next">GET STARTED!</string>
+    <string name="next_a">FIND MY MEAL!!</string>
+    <string name="next_b">JUST COOK!!</string>
+    
+    <string name="step_1">   
+    How many people are eating?
+    </string>
+    
+    <string name="step_2">   
+    How much are you spending?
+    </string>
+    
+    <string name="step_3">  
+    Pick your meal.     
+    </string>
+    
+    <string name="step_4">  
+    Use your GPS to find out where to get your ingredients.     
+    </string>
+    
+	<!-- pg_2 strings -->
+	<string name="pg_2_title">Who is Eating?</string>
+    <string name="button_one">Meals for 1 Person</string>
+    <string name="button_two">Meals for 2 People</string>
+    <string name="button_three">Meals for 3 People</string>
+    <string name="button_four">Meals for 4 People</string>
+
+    <!-- pg_3 strings -->
+    <string name="pg_3_title">How Much Are You Spending?</string>
+    <string name="button_1">£5</string>
+    <string name="button_2">£10</string>
+    <string name="button_3">£15</string>
+    <string name="button_4">£20</string>
+	
+    <!-- pg_4 strings -->
+    <string name="pg_4_title">Pick Your Meal.</string>
+    
+    
+    <!-- pg_5 strings -->
+    <string name="pg_5_title">Where Do I Go?</string>
+    <string name="show_hide">Show/Hide Local Stores.</string>
+    
+    <!-- other strings -->
+    <string name="font">font</string>
+    
+</resources>
